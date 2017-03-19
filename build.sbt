@@ -14,6 +14,6 @@ libraryDependencies ++= Seq(
 routesGenerator := InjectedRoutesGenerator
 
 enablePlugins(DebianPlugin)
-maintener := "Rodrigo <rodrigo.barriuso@gmail.com>"
+maintainer := "Rodrigo <rodrigo.barriuso@gmail.com>"
 packagesSummary := "My package"
 packageDescription := "Package"
