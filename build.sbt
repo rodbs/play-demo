@@ -11,3 +11,9 @@ libraryDependencies ++= Seq(
   cache,
   javaWs
 )
+routesGenerator := InjectedRoutesGenerator
+
+enablePlugins(DebianPlugin)
+maintener := "Rodrigo <rodrigo.barriuso@gmail.com>"
+packagesSummary := "My package"
+packageDescription := "Package"
